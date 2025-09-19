@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lan+"bn">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নির্ভর ফুড - নিরাপদ ও অর্গানিক খাদ্য</title>
+    <!-- CSS ফাইল লিঙ্ক -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- হেডার -->
+    <header>
+        <h1>নির্ভর ফুড</h1>
+        <p>নিরাপদ, অর্গানিক এবং স্বাস্থ্যকর খাদ্য আপনার পরিবারের জন্য</p>
+    </header>
+
+    <!-- নেভিগেশন মেনু -->
+    <nav>
+        <ul>
+            <li><a href="#meat">গরুর মাংস</a></li>
+            <li><a href="#milk">গরুর দুধ</a></li>
+            <li><a href="#fish">রেডি টু কুক মাছ</a></li>
+            <li><a href="#chicken">রেডি টু কুক মুরগি</a></li>
+            <li><a href="#eggs">ডিম</a></li>
+            <li><a href="#vegetables">সবজি</a></li>
+        </ul>
+    </nav>
+
+    <!-- প্রোডাক্টস সেকশন -->
+    <section class="products" id="meat">
+           <div class="product-card">
+            <img src="d:images\Beef.jpg" alt="গরুর মাংস">
+            <h3>গরুর মাংস</h3>
+            <p>১ কেজি - ৮00 টাকা</p>
+            <button onclick="addToCart('গরুর মাংস')">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product-card" id="milk">
+            <img src="images\milk.jpg" alt="গরুর দুধ">
+            <h3>গরুর দুধ</h3>
+            <p>১ লিটার - ১০০ টাকা</p>
+            <button onclick="addToCart('গরুর দুধ')">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product-card" id="fish">
+            <img src="images\Fish.jpg" alt="রেডি টু কুক মাছ">
+            <h3>রেডি টু কুক মাছ</h3>
+            <p>১ কেজি - ১২০০ টাকা</p>
+            <button onclick="addToCart('রেডি টু কুক মাছ')">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product-card" id="chicken">
+            <img src="images\Chicken.jpg" alt="রেডি টু কুক মুরগির মাংস">
+            <h3>রেডি টু কুক মুরগির মাংস</h3>
+            <p>১ কেজি - ৬৫০ টাকা</p>
+            <button onclick="addToCart('রেডি টু কুক মুরগির মাংস')">কার্টে যোগ করুন</button>
+        </div>
+    
+
+    
+            <img src="d:\Website image\Chicken.jpg" alt="রেডি টু কুক মুরগি">
+            <h3>রেডি টু কুক মুরগি</h3>
+            <p>১ কেজি - ৬৫০ টাকা</p>
+            <button onclick="addToCart('রেডি টু কুক মুরগি')">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product-card" id="eggs">
+            <img src="d:\Website image\Egg.jpg" alt="ডিম">
+            <h3>ডিম</h3>
+            <p>১২ টি - ১২০ টাকা</p>
+            <button onclick="addToCart('ডিম')">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product-card" id="vegetables">
+            <img src="d:\Website image\Vegetables.jpg" alt="সবজি">
+            <h3>সবজি</h3>
+            <p>১ কেজি - ৭০ টাকা</p>
+            <button onclick="addToCart('সবজি')">কার্টে যোগ করুন</button>
+        </div>
+    </section>
+
+    <!-- ফুটার -->
+    <footer>
+        © ২০২৫ নির্ভর ফুড | সকল অধিকার সংরক্ষিত
+    </footer>
+
+    <!-- JavaScript ফাইল লিঙ্ক -->
+    <script src="script.js"></script>
+</body>
+</html>
